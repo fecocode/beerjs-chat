@@ -1,5 +1,5 @@
 <template>
-  <div v-if="showView">
+  <div v-if="showView" class="mt-5">
     <SignIn />
   </div>
 </template>
@@ -11,10 +11,5 @@ const auth = useAuth()
 
 const showView = computed(() => {
   return auth.isLoaded
-})
-
-// @ts-ignore
-definePageMeta({
-  layout: 'auth'
 })
 </script>

@@ -9,7 +9,7 @@
         <UserButton />
       </SignedIn>
       <SignedOut>
-        <UButton label="Ingresar" :to="{ name: 'signin' }" />
+        <UButton label="Registrarme" :to="{ name: 'signup' }" />
       </SignedOut>
     </nav>
     <main class="w-full h-full flex flex-col items-center">

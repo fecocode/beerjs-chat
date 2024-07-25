@@ -31,6 +31,8 @@ const unsubscribe = onSnapshot(collection($firebase.firestore, 'messages'), (sna
 })
 
 onUnmounted(() => {
-  unsubscribe()
+  if(unsubscribe) {
+    unsubscribe()
+  }
 })
 </script>

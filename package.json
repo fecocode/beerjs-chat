@@ -10,7 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@clerk/clerk-sdk-node": "^5.0.18",
+    "@clerk/types": "^4.9.0",
+    "firebase": "^10.12.4",
+    "firebase-admin": "^12.2.0",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-clerk": "^0.4.11"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.18.1"
   }
 }
